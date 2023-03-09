@@ -1,0 +1,53 @@
+:root{
+    --blana: #333;
+    --blu-re: #00ffff;
+    --gol-gr: #ffd700;
+
+}
+
+body {
+    font-family: "Open sans", sans-serif;
+    background-color: var(--blana);
+
+}
+
+.headline {
+    margin: 0;
+}
+
+.container {
+    max-width: 300px;
+    background-color: var(--blu-re);
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.call {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid var(--blana);
+    border-radius: 5px;
+}
+
+.btc {
+    background-color: var(--gol-gr);
+    border: 2px solid var(--blana);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
